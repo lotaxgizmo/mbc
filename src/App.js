@@ -10,7 +10,7 @@ import Andy from './components/Andy'
 import Birddog from './components/Birddog'
 import Footer from './components/Footer'
 import Header from './components/Header'
-
+import Firstvid from './components/Firstvid'
 function App() {
   return (
     <div className="App overflow-x-clip">
@@ -18,6 +18,7 @@ function App() {
 
       <Hero />
       <Introducing />
+      <Firstvid />
       <Roll />
       <Comingsoon />
       <Waitlist />

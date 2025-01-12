@@ -1,12 +1,16 @@
 import React from 'react'
 import mintcomingsoon from '../assets/mintcomingsoon.png'
-import roll from '../assets/roll.png'
+import Marquee1 from './Marquee1'
+import Marquee2 from './Marquee2'
+import Marquee3 from './Marquee3'
 
 function Comingsoon() {
     return (
         <div className='flex flex-col justify-center items-center'>
             <img src={mintcomingsoon} alt="mintcomingsoon" className='w-8/12 my-5' />
-            <img src={roll} alt="roll" className='w-full' />
+            <Marquee1 />
+            <Marquee2 />
+            <Marquee3 />
 
         </div>
     )

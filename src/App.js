@@ -3,17 +3,18 @@ import Introducing from './components/Introducing'
 import Roll from './components/Roll'
 import Comingsoon from './components/Comingsoon'
 import Waitlist from './components/Waitlist'
-import Landwolf from './components/Landwolf'
-import Brett from './components/Brett'
-import Pepe from './components/Pepe'
-import Andy from './components/Andy'
-import Birddog from './components/Birddog'
+import Parts from './components/Parts'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Firstvid from './components/Firstvid'
+import Landwolf from './components/animations/Landwolf'
+
 function App() {
   return (
-    <div className="App overflow-x-clip">
+    <div className="App overflow-x-clip d">
+
+      {/* <Landwolf /> */}
+
       <Header />
 
       <Hero />
@@ -22,12 +23,8 @@ function App() {
       <Roll />
       <Comingsoon />
       <Waitlist />
-      <Landwolf />
-      <Brett />
-      <Pepe />
-      <Andy />
-      <Birddog />
 
+      <Parts />
       <Footer />
     </div>
   );

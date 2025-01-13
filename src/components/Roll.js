@@ -5,7 +5,7 @@ import Marquee5 from './Marquee5'
 
 function Roll() {
     return (
-        <div className='flex flex-col justify-center items-center px-4s my-20'>
+        <div className='flex flex-col justify-center items-center px-4s my-20 overflow-y-clip lg:py-40 py-10'>
             {/* <img src={mutants} alt="mutants" className='w-full lg:my-20 my-10' /> */}
             <div className="marq -rotate-6">
                 <Marquee4 />

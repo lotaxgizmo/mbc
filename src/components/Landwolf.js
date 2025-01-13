@@ -2,13 +2,15 @@ import React from 'react'
 import jointelegram from '../assets/jointelegram.png'
 import landwolf from '../assets/landwolf.png'
 import landwolftext from '../assets/landwolftext.png'
+import Landwolff from './animations/Landwolf'
 
 function Landwolf() {
     return (
         <div className='flex lg:flex-row flex-col justify-center items-center landwolfbg px-4 py-5 lg:py-0'>
 
             <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">
-                <img src={landwolf} alt="landwolf" className='w-9/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0' />
+                {/* <img src={landwolf} alt="landwolf" className='w-9/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0' /> */}
+                <Landwolff />
             </div>
 
             <div className="right flex flex-col justify-start items-start lg:w-1/2 lg:px-32">

@@ -3,6 +3,7 @@ import mutantboosterbtn from '../assets/mutantboosterbtn.png'
 import footerlogo from '../assets/footerlogo.png'
 import jointelegram from '../assets/jointelegram.png'
 
+
 function Header() {
     return (
         <div className='flex flex-row justify-between items-center px-10 py-5 text-white'>

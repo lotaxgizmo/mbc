@@ -3,13 +3,14 @@ import mutantboosterbtn from '../assets/mutantboosterbtn.png'
 import buymbc from '../assets/buymbc.png'
 import mutantbooosters from '../assets/mutantbooosters.png'
 import part1 from '../assets/part1.png'
+import heropic from '../assets/heropic.jpg'
 
 function Hero() {
     return (
         <div className='flex flex-col justify-center items-center px-4'>
             <h1 className='text-center text-white lg:text-6xl text-5xl mb-5 mt-10'>Welcome to <br />
                 Mutant Boys Club</h1>
-
+            <img src={heropic} alt="heropic" className='w-11/12 lg:w-8/12 rounded-xl' />
             <h2 className='text-md text-[#9F9F9F] text-center lg:w-[52%] mb-7'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies, leo id tristique sagittis, lectus orci mollis velit, eget condimentum augue erat quis risus. Nullam ultrices metus quam, eget vehicula ligula commodo a.
             </h2>

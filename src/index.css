@@ -40,3 +40,82 @@ body {
   background-size: cover;
   background-repeat: repeat-y;
 }
+
+@keyframes wobble {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+.head-wobble {
+  animation: wobble 3s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.head-wobble2 {
+  animation: wobble 1s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes headupdown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.head-updown {
+  animation: headupdown 3s ease-in-out infinite;
+}
+
+@keyframes headupdownbrett {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.head-updownbrett {
+  animation: headupdownbrett 3s ease-in-out infinite;
+}
+
+.head-leftright {
+  animation: headleftright 5s ease-in-out infinite;
+}
+
+@keyframes headleftright {
+  0% {
+    transform: translateX(-60%);
+  }
+  50% {
+    transform: translateX(15%);
+  }
+  100% {
+    transform: translateX(-60%);
+  }
+}
+
+.backy {
+  background-color: black;
+}
+
+.pepe-clip {
+  -webkit-clip-path: url(#pepeClipPath);
+  clip-path: url(#pepeClipPath);
+}

@@ -10,7 +10,7 @@ function Hero() {
         <div className='flex flex-col justify-center items-center px-0'>
             <h1 className='text-center text-white lg:text-6xl text-5xl mb-5 mt-10 px-4'>Welcome to <br />
                 Mutant Boys Club</h1>
-            <img src={heropic} alt="heropic" className='w-12/12 lg:w-9/12 rounded-xl ' />
+            <img src={heropic} alt="heropic" className='w-12/12   rounded-xl ' />
             <h2 className='text-md text-[#9F9F9F] text-center lg:w-[52%] mb-7 px-4'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies, leo id tristique sagittis, lectus orci mollis velit, eget condimentum augue erat quis risus. Nullam ultrices metus quam, eget vehicula ligula commodo a.
             </h2>

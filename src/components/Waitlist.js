@@ -16,7 +16,7 @@ function Waitlist() {
             <img src={joinwhitelist} alt="joinwhitelist" className='w-9/12 lg:w-5/12 mb-5' />
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-4'>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://phantom.com/tokens/solana/MBCccZZEbcvWzaHD9otPjmBMFaa6pG7XRYSw39HT5n2?referralId=ch1u9xslfzv" target="_blank" rel="noopener noreferrer">
                     <img src={buymbcwhite} alt="buymbcwhite" className='w-40' />
                 </a>
                 <img src={contract} alt="contract" className='p-4 lg:p-0 w-full lg:w-[470px]' />

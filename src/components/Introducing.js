@@ -25,7 +25,7 @@ function Introducing() {
                 </h2>
 
                 <div className="btns w-full flex justify-center items-center lg:justify-normal lg:flex-row gap-5  ">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://phantom.com/tokens/solana/MBCccZZEbcvWzaHD9otPjmBMFaa6pG7XRYSw39HT5n2?referralId=ch1u9xslfzv" target="_blank" rel="noopener noreferrer">
                         <img src={buymbc} alt="buymbc" className='w-40' />
                     </a>
                     <a href="https://booster.mutantboysclub.com/" target="_blank" rel="noopener noreferrer">

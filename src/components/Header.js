@@ -16,8 +16,8 @@ function Header() {
 
             <div className="right flex flex-row justify-center items-center gap-4">
 
-                <a href="https://t.me/MutantBoysClub_MBC" target="_blank" rel="noopener noreferrer" className='text-sm font-thin hidden lg:block'>Home</a>
-                <a href="https://t.me/MutantBoysClub_MBC" target="_blank" rel="noopener noreferrer" className='text-sm font-thin hidden lg:block'>Contact Us</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" className='text-sm font-thin hidden lg:block'>Home</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" className='text-sm font-thin hidden lg:block'>Contact Us</a>
 
                 <a href="https://booster.mutantboysclub.com/" target="_blank" rel="noopener noreferrer">
                     <img src={mutantboosterbtn} alt="mutantboosterbtn" className='w-40 hidden lg:block' />

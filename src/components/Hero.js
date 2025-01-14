@@ -4,6 +4,7 @@ import buymbc from '../assets/buymbc.png'
 import mutantbooosters from '../assets/mutantbooosters.png'
 import part1 from '../assets/part1.png'
 import heropic from '../assets/heropic.png'
+import coinflipbot from '../assets/coinflipbot.png'
 
 function Hero() {
     return (
@@ -15,12 +16,15 @@ function Hero() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies, leo id tristique sagittis, lectus orci mollis velit, eget condimentum augue erat quis risus. Nullam ultrices metus quam, eget vehicula ligula commodo a.
             </h2>
 
-            <div className="btns flex lg:flex-row gap-5 px-4 ">
+            <div className="btns flex lg:flex-row gap-5 px-4 flex-wrap justify-center items-center   ">
                 <a href="https://phantom.com/tokens/solana/MBCccZZEbcvWzaHD9otPjmBMFaa6pG7XRYSw39HT5n2?referralId=ch1u9xslfzv" target="_blank" rel="noopener noreferrer">
                     <img src={buymbc} alt="buymbc" className='w-40' />
                 </a>
                 <a href="https://booster.mutantboysclub.com/" target="_blank" rel="noopener noreferrer">
                     <img src={mutantboosterbtn} alt="mutantboosterbtn" className='w-40' />
+                </a>
+                <a href="https://t.me/MutantCoinFlipBot?start=new" target="_blank" rel="noopener noreferrer">
+                    <img src={coinflipbot} alt="coinflipbot" className='w-40' />
                 </a>
             </div>
 

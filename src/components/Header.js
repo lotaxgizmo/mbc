@@ -1,6 +1,6 @@
 import React from 'react'
 import mutantboosterbtn from '../assets/mutantboosterbtn.png'
-import footerlogo from '../assets/footerlogo.png'
+import toplogo from '../assets/toplogo.png'
 import jointelegram from '../assets/jointelegram.png'
 
 
@@ -9,7 +9,7 @@ function Header() {
         <div className='flex flex-row justify-between items-center px-10 py-5 text-white'>
             <div className="left flex flex-row justify-center items-center">
                 <a href="#" target="_blank" rel="noopener noreferrer">
-                    <img src={footerlogo} alt="footerlogo" className='w-72' />
+                    <img src={toplogo} alt="toplogo" className='w-72' />
                 </a>
 
             </div>

@@ -16,8 +16,12 @@ function Hero() {
             </h2>
 
             <div className="btns flex lg:flex-row gap-5  ">
-                <img src={buymbc} alt="buymbc" className='w-40' />
-                <img src={mutantboosterbtn} alt="mutantboosterbtn" className='w-40' />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src={buymbc} alt="buymbc" className='w-40' />
+                </a>
+                <a href="https://booster.mutantboysclub.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={mutantboosterbtn} alt="mutantboosterbtn" className='w-40' />
+                </a>
             </div>
 
             <div className="booster flex justify-center items-center m-20 w-full">

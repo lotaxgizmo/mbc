@@ -119,3 +119,47 @@ body {
   -webkit-clip-path: url(#pepeClipPath);
   clip-path: url(#pepeClipPath);
 }
+
+@keyframes headupdownandy {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.head-updownandy {
+  animation: headupdownandy 3s ease-in-out infinite;
+}
+.head-updownandy2 {
+  animation: headupdownandy 2s ease-in-out infinite;
+}
+
+.spinny {
+  animation: spinny 5s linear infinite;
+}
+
+.spinny1 {
+  animation: spinny 8s linear infinite;
+}
+
+.spinny2 {
+  animation: spinny 2s linear infinite;
+}
+
+.spinny3 {
+  animation: spinny 12s linear infinite;
+}
+
+@keyframes spinny {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

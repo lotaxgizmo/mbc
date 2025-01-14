@@ -7,7 +7,7 @@ import Birddog from './Birddog'
 
 function Parts() {
     return (
-        <div>
+        <div className='flex flex-col'>
 
             <Landwolf />
             <Brett />

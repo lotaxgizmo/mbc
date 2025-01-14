@@ -4,7 +4,7 @@ import jointelegram from '../assets/jointelegram.png'
 
 import andytext from '../assets/andytext.png'
 import andy from '../assets/andy.png'
-
+import Andyanimation from './animations/Andyanimation'
 
 function Andy() {
     return (
@@ -27,7 +27,8 @@ function Andy() {
             </div>
 
             <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">
-                <img src={andy} alt="andy" className='w-9/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0' />
+                {/* <img src={andy} alt="andy" className='w-9/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0' /> */}
+                <Andyanimation />
             </div>
         </div>
     )

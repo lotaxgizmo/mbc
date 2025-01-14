@@ -8,7 +8,9 @@ function Header() {
     return (
         <div className='flex flex-row justify-between items-center px-10 py-5 text-white'>
             <div className="left flex flex-row justify-center items-center">
-                <img src={footerlogo} alt="footerlogo" className='w-72' />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src={footerlogo} alt="footerlogo" className='w-72' />
+                </a>
 
             </div>
 
@@ -17,8 +19,12 @@ function Header() {
                 <a href="https://t.me/mutantboysclub" target="_blank" rel="noopener noreferrer" className='text-sm font-thin hidden lg:block'>Home</a>
                 <a href="https://t.me/mutantboysclub" target="_blank" rel="noopener noreferrer" className='text-sm font-thin hidden lg:block'>Contact Us</a>
 
-                <img src={mutantboosterbtn} alt="mutantboosterbtn" className='w-40 hidden lg:block' />
-                <img src={jointelegram} alt="jointelegram" className='w-40 hidden lg:block' />
+                <a href="https://booster.mutantboysclub.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={mutantboosterbtn} alt="mutantboosterbtn" className='w-40 hidden lg:block' />
+                </a>
+                <a href="https://t.me/mutantboysclub" target="_blank" rel="noopener noreferrer">
+                    <img src={jointelegram} alt="jointelegram" className='w-40 hidden lg:block' />
+                </a>
             </div>
         </div>
     )

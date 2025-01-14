@@ -23,7 +23,9 @@ function Andy() {
                     Nunc imperdiet eget est eget vulputate. Donec auctor id libero et bibendum. Vestibulum ac elit porta nulla tempus laoreet. Aenean placerat
                 </h2>
 
-                <img src={jointelegram} alt="jointelegram" className='w-40' />
+                <a href="https://t.me/MutantBoysClub_MBC" target="_blank" rel="noreferrer">
+                    <img src={jointelegram} alt="jointelegram" className='w-40' />
+                </a>
             </div>
 
             <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">

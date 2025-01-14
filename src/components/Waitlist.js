@@ -16,17 +16,31 @@ function Waitlist() {
             <img src={joinwhitelist} alt="joinwhitelist" className='w-9/12 lg:w-5/12 mb-5' />
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-4'>
-                <img src={buymbcwhite} alt="buymbcwhite" className='w-40' />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src={buymbcwhite} alt="buymbcwhite" className='w-40' />
+                </a>
                 <img src={contract} alt="contract" className='p-4 lg:p-0 w-full lg:w-[470px]' />
             </div>
 
             <div className="socials flex flex-row justify-center items-center gap-4 my-5">
-                <img src={dexscreener} alt="dexscreener" className='w-1/12' />
-                <img src={discord} alt="discord" className='w-1/12' />
-                <img src={instagram} alt="instagram" className='w-1/12' />
-                <img src={reddit} alt="reddit" className='w-1/12' />
-                <img src={telegram} alt="telegram" className='w-1/12' />
-                <img src={x} alt="x" className='w-1/12' />
+                <a href="https://dexscreener.com/solana/Hebuwy9Gh9NoArBCvu6xym58KjSC6XeiwwjC3NwC5yrd" target="_blank" rel="noreferrer" className='w-1/12'>
+                    <img src={dexscreener} alt="dexscreener" />
+                </a>
+                <a href="#" target="_blank" rel="noreferrer" className='w-1/12'>
+                    <img src={discord} alt="discord" />
+                </a>
+                <a href="https://www.instagram.com/mutantboysclubofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className='w-1/12'>
+                    <img src={instagram} alt="instagram" />
+                </a>
+                <a href="https://www.reddit.com/r/MBCcoin/" target="_blank" rel="noreferrer" className='w-1/12'>
+                    <img src={reddit} alt="reddit" />
+                </a>
+                <a href="https://t.me/MutantBoysClub_MBC" target="_blank" rel="noreferrer" className='w-1/12'>
+                    <img src={telegram} alt="telegram" />
+                </a>
+                <a href="https://x.com/MBC_Solana" target="_blank" rel="noreferrer" className='w-1/12'>
+                    <img src={x} alt="x" />
+                </a>
             </div>
         </div>
     )

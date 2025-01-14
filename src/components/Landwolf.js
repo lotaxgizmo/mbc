@@ -13,7 +13,7 @@ function Landwolf() {
                 <Landwolff />
             </div>
 
-            <div className="right flex flex-col justify-start items-start lg:w-1/2 lg:px-32">
+            <div className="right flex flex-col lg:justify-start justify-center items-center lg:items-start lg:w-1/2 lg:px-32">
                 <img src={landwolftext} alt="landwolftext" className='w-80' />
 
                 <h2 className='text-md text-white text-start  font-extralight mb-7'>

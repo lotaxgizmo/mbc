@@ -13,8 +13,6 @@ function App() {
   return (
     <div className="App overflow-x-clip d">
 
-      {/* <Landwolf /> */}
-
       <Header />
 
       <Hero />

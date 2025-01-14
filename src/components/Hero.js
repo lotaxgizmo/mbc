@@ -23,9 +23,7 @@ function Hero() {
                 <a href="https://booster.mutantboysclub.com/" target="_blank" rel="noopener noreferrer">
                     <img src={mutantboosterbtn} alt="mutantboosterbtn" className='w-40' />
                 </a>
-                <a href="https://t.me/MutantCoinFlipBot?start=new" target="_blank" rel="noopener noreferrer">
-                    <img src={coinflipbot} alt="coinflipbot" className='w-40' />
-                </a>
+
             </div>
 
             <div className="booster flex justify-center items-center m-20 w-full px-4">

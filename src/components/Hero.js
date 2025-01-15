@@ -5,6 +5,7 @@ import mutantbooosters from '../assets/mutantbooosters.png'
 import part1 from '../assets/part1.png'
 import heropic from '../assets/heropic.png'
 import coinflipbot from '../assets/coinflipbot.png'
+import Mutantboosterpart from './Mutantboosterpart'
 
 function Hero() {
     return (
@@ -26,8 +27,8 @@ function Hero() {
 
             </div>
 
-            <div className="booster flex justify-center items-center m-20 w-full px-4">
-                <img src={mutantbooosters} alt="mutantbooosters" className='lg:ml-20 lg:w-11/12 w-full' />
+            <div className="booster flex justify-center items-center m-20 w-full ">
+                <Mutantboosterpart />
             </div>
 
             <div className="three flex flex-col lg:flex-row justify-center items-center lg:gap-20 gap-10 mb-5 px-4">

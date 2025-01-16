@@ -3,7 +3,7 @@ import jointelegram from '../assets/jointelegram.png'
 
 
 import bretttext from '../assets/bretttext.png'
-import brett from '../assets/brett.png'
+import brett from '../assets/brett.gif'
 import Brettanimation from './animations/Brettanimation'
 
 function Brett() {
@@ -29,8 +29,8 @@ function Brett() {
             </div>
 
             <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">
-                {/* <img src={brett} alt="brett" className='w-9/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0' /> */}
-                <Brettanimation />
+                <img src={brett} alt="brett" className='w-12/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0' />
+                {/* <Brettanimation /> */}
             </div>
         </div>
     )

@@ -31,7 +31,17 @@ function Firstvid() {
             <div className="rows">
                 <div className="row1 flex flex-row justify-center items-center ">
                     <img src={mbcwinner} alt="mbcwinner" className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
-                    <video src={mbcvideo1} alt="mbcvideo1" muted autoPlay loop playsinline className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
+                    <video
+                        src={mbcvideo1}
+                        alt="mbcvideo1"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                        webkit-playsinline="true"
+                        controls={false}
+                        className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
+                    />
                     <img src={mbcvs} alt="mbcvs" className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                 </div>
 
@@ -50,9 +60,39 @@ function Firstvid() {
                         <p className='text-white text-center text-sm lg:text-2xl  absolute'>GME</p>
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0' />
                     </div>
-                    <video src={gmevideo1} alt="gmevideo1" muted autoPlay loop playsinline className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
-                    <video src={gmevideo2} alt="gmevideo2" muted autoPlay loop playsinline className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
-                    <video src={gmevideo3} alt="gmevideo3" muted autoPlay loop playsinline className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
+                    <video
+                        src={gmevideo1}
+                        alt="gmevideo1"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                        webkit-playsinline="true"
+                        controls={false}
+                        className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
+                    />
+                    <video
+                        src={gmevideo2}
+                        alt="gmevideo2"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                        webkit-playsinline="true"
+                        controls={false}
+                        className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
+                    />
+                    <video
+                        src={gmevideo3}
+                        alt="gmevideo3"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                        webkit-playsinline="true"
+                        controls={false}
+                        className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
+                    />
                 </div>
 
                 <div className="row2 flex flex-row justify-center items-center ">
@@ -60,8 +100,28 @@ function Firstvid() {
                         <p className='text-white text-center text-sm lg:text-2xl  absolute'>HODI</p>
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0' />
                     </div>
-                    <video src={hodivideo} alt="hodivideo" muted autoPlay loop playsinline className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
-                    <video src={hodivideo2} alt="hodivideo2" muted autoPlay loop playsinline className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
+                    <video
+                        src={hodivideo}
+                        alt="hodivideo"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                        webkit-playsinline="true"
+                        controls={false}
+                        className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
+                    />
+                    <video
+                        src={hodivideo2}
+                        alt="hodivideo2"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                        webkit-playsinline="true"
+                        controls={false}
+                        className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
+                    />
                     <img src={hodi2} alt="hodi2" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                 </div>
 

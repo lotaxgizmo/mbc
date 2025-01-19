@@ -5,7 +5,7 @@ import mbcvs from '../assets/mbcvs.jpg'
 import pyrate1 from '../assets/pyrate1.jpg'
 import pyrate2 from '../assets/pyrate2.jpg'
 import pyrate3 from '../assets/pyrate3.jpg'
-import mbcvideo1 from '../assets/mbcvideo1.mp4'
+import mbcvideo11 from '../assets/mbcvideo11.mp4'
 import mbcwinner from '../assets/mbcwinner.jpg'
 
 import gmevideo1 from '../assets/gmevideo1.mp4'
@@ -31,7 +31,7 @@ function Firstvid() {
                 <div className="row1 flex flex-row justify-center items-center ">
                     <img src={mbcwinner} alt="mbcwinner" className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                     <video
-                        src={mbcvideo1}
+                        src={mbcvideo11}
                         alt="mbcvideo1"
                         muted
                         autoPlay

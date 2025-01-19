@@ -1,5 +1,4 @@
 import React from 'react'
-import mbcvideo2 from '../assets/mbcvideo2.mp4'
 import coinflipbot from '../assets/coinflipbot.png'
 import mbcvs from '../assets/mbcvs.jpg'
 
@@ -132,7 +131,7 @@ function Firstvid() {
                     </div>
                     <img src={kolt1} alt="kolt1" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                     <img src={kolt2} alt="kolt2" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
-                    <img src={hodi2} alt="hodi2" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
+                    <img src={kolt3} alt="kolt3" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                 </div>
 
 

@@ -4,7 +4,7 @@ import monsters from '../assets/monsters.png'
 function Marquee4() {
     return (
         <div className="flex flex-col justify-center items-center relative overflow-hidden w-full">
-            <div className="whitespace-nowrap"
+            {/* <div className="whitespace-nowrap"
                 style={{
                     animation: 'marquee 700s linear infinite',
                     transform: 'translateX(0)',
@@ -23,7 +23,14 @@ function Marquee4() {
                 0% { transform: translateX(0); }
                 100% { transform: translateX(-50%); }
             }
-        `}</style>
+        `}</style> */}
+
+            <img
+
+                src={monsters}
+                alt="Rolling animation"
+                className="inline-blockd lg:w-[1600px]d w-4/12 smax-w-none mx-0"
+            />
         </div>
     )
 }

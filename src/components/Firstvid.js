@@ -5,7 +5,7 @@ import mbcvs from '../assets/mbcvs.jpg'
 import pyrate1 from '../assets/pyrate1.jpg'
 import pyrate2 from '../assets/pyrate2.jpg'
 import pyrate3 from '../assets/pyrate3.jpg'
-import mbcvideo11 from '../assets/mbcvideo11.mp4'
+import mbcvideo11 from '../assets/mbcvideo11.MP4'
 import mbcwinner from '../assets/mbcwinner.jpg'
 
 import gmevideo1 from '../assets/gmevideo1.mp4'

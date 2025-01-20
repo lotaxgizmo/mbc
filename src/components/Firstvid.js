@@ -60,8 +60,8 @@ function Firstvid() {
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0' />
                     </div>
                     <video
-                        src={gmevideo1}
-                        alt="gmevideo1"
+                        src={gmevideo2}
+                        alt="gmevideo2"
                         muted
                         autoPlay
                         loop
@@ -71,8 +71,8 @@ function Firstvid() {
                         className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
                     />
                     <video
-                        src={gmevideo2}
-                        alt="gmevideo2"
+                        src={gmevideo1}
+                        alt="gmevideo1"
                         muted
                         autoPlay
                         loop

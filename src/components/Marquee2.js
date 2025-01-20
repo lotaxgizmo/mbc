@@ -6,7 +6,7 @@ function Marquee2() {
         <div className="flex flex-col justify-center items-center relative overflow-hidden w-full">
             <div className="whitespace-nowrap"
                 style={{
-                    animation: 'marquee1 5000s linear infinite',
+                    animation: 'marquee1 2000s linear infinite',
                     transform: 'translateX(0)',
                 }}>
                 {[...Array(100)].map((_, index) => (

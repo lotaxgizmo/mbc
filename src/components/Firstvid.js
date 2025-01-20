@@ -29,7 +29,6 @@ function Firstvid() {
 
             <div className="rows">
                 <div className="row1 flex flex-row justify-center items-center ">
-                    <img src={mbcwinner} alt="mbcwinner" className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                     <video
                         src={mbcvideo11}
                         alt="mbcvideo1"
@@ -42,6 +41,7 @@ function Firstvid() {
                         className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
                     />
                     <img src={mbcvs} alt="mbcvs" className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
+                    <img src={mbcwinner} alt="mbcwinner" className='w-1/3 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
                 </div>
 
                 <div className="row2 flex flex-row justify-center items-center ">
@@ -100,17 +100,6 @@ function Firstvid() {
                         <img src={mbcvs} alt="mbcvs" className='w-full opacity-0' />
                     </div>
                     <video
-                        src={hodivideo}
-                        alt="hodivideo"
-                        muted
-                        autoPlay
-                        loop
-                        playsInline
-                        webkit-playsinline="true"
-                        controls={false}
-                        className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
-                    />
-                    <video
                         src={hodivideo2}
                         alt="hodivideo2"
                         muted
@@ -122,6 +111,17 @@ function Firstvid() {
                         className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
                     />
                     <img src={hodi2} alt="hodi2" className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl' />
+                    <video
+                        src={hodivideo}
+                        alt="hodivideo"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                        webkit-playsinline="true"
+                        controls={false}
+                        className='w-1/4 lg:p-5 p-2 lg:rounded-[50px] rounded-xl'
+                    />
                 </div>
 
                 <div className="row2 flex flex-row justify-center items-center ">

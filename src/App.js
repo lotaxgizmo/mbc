@@ -7,7 +7,6 @@ import Parts from './components/Parts'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Firstvid from './components/Firstvid'
-import Landwolf from './components/animations/Landwolf'
 
 function App() {
   return (

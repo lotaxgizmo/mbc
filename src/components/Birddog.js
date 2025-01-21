@@ -2,8 +2,7 @@ import React from 'react'
 import jointelegram from '../assets/jointelegram.png'
 
 import birddogtext from '../assets/birddogtext.png'
-import birddog from '../assets/birddog.gif'
-import Birddoganimation from './animations/Birddoganimation'
+import birddog from '../assets/birddog.gif' 
 
 
 function Birddog() {

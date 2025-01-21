@@ -1,5 +1,4 @@
 import React from 'react'
-import mutants from '../assets/mutants.png'
 import Marquee4 from './Marquee4'
 import Marquee5 from './Marquee5'
 import monsters from '../assets/monsters.png'

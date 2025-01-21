@@ -4,7 +4,6 @@ import jointelegram from '../assets/jointelegram.png'
 
 import bretttext from '../assets/bretttext.png'
 import brett from '../assets/brett.gif'
-import Brettanimation from './animations/Brettanimation'
 
 function Brett() {
     return (

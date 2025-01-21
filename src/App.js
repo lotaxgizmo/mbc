@@ -13,17 +13,17 @@ function App() {
   return (
     <div className="App overflow-x-clip d">
 
-      <Header />
+      {/* <Header />
 
       <Hero />
       <Introducing />
       <Firstvid />
       <Roll />
       <Comingsoon />
-      <Waitlist />
+      <Waitlist /> */}
 
       <Parts />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

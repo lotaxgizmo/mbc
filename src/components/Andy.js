@@ -3,7 +3,8 @@ import jointelegram from '../assets/jointelegram.png'
 
 
 import andytext from '../assets/andytext.png'
-import andy from '../assets/andy.gif' 
+import andy from '../assets/andy2.gif'
+// import andy from '../assets/andy.gif' 
 
 function Andy() {
     return (

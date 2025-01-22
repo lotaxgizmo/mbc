@@ -2,6 +2,7 @@ import React from 'react'
 import jointelegram from '../assets/jointelegram.png'
 
 import pepetext from '../assets/pepetext.png'
+import pepe from '../assets/pepe.gif'
 import Pepeanimation from './animations/Pepeanimation'
 
 function Pepe() {
@@ -9,7 +10,8 @@ function Pepe() {
         <div className='flex lg:flex-row flex-col justify-center items-center pepebg px-4 py-5 lg:py-0'>
 
             <div className="left lg:w-1/2 flex flex-col lg:justify-end justify-center items-center lg:items-end">
-                <Pepeanimation />
+                <img src={pepe} alt="pepe" className='w-12/12 lg:w-11/12 lg:ml-20 m-4 lg:mb-0' />
+                {/* <Pepeanimation /> */}
             </div>
 
             <div className="right flex flex-col lg:justify-start justify-center items-center lg:items-start lg:w-1/2 lg:px-32">
